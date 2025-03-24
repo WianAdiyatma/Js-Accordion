@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 500px;
+        margin: 0 auto;
+      }
+
+      .arrow {
+        cursor: pointer;
+        margin-left: 10px;
+      }
+
+      .accordion {
+        color: white;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px 0 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .no-display {
+        display: none;
+      }
+
+      .article {
+        border: 2px solid black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Frequently Asked Question</h1>
+    <p>here's some of the FAQ</p>
+    <div class="container">
+      <div class="accordion">
+        <p>Lorem ipsum dolor sit.</p>
+        <span class="arrow">&#11206;</span>
+      </div>
+      <div class="article no-display">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus,
+          ad quaerat quasi inventore laboriosam temporibus, quod odit aut totam
+          reprehenderit obcaecati id expedita fuga dolorem?
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="accordion">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <span class="arrow">&#11206;</span>
+      </div>
+      <div class="article no-display">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus,
+          ad quaerat quasi inventore laboriosam temporibus, quod odit aut totam
+          reprehenderit obcaecati id expedita fuga dolorem?
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="accordion">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <span class="arrow">&#11206;</span>
+      </div>
+      <div class="article no-display">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus,
+          ad quaerat quasi inventore laboriosam temporibus, quod odit aut totam
+          reprehenderit obcaecati id expedita fuga dolorem?
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="accordion">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <span class="arrow">&#11206;</span>
+      </div>
+      <div class="article no-display">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus,
+          ad quaerat quasi inventore laboriosam temporibus, quod odit aut totam
+          reprehenderit obcaecati id expedita fuga dolorem?
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
